@@ -4,18 +4,7 @@ body {
 
 h1, h2, h3, h4 {
     color: #192874;
-}
-
-a {
-    text-decoration: none;
-}
-
-h2:hover {
-    color: #f6f9ff;
-}
-
-.portafolio p {
-   color: #f6f9ff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -24,8 +13,16 @@ h2 {
     background-color: #d8ddff;
 }
 
-h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
+h2:hover {
+    color: #f6f9ff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.portafolio p {
+   color: #f6f9ff;
 }
 
 p, li {
@@ -50,24 +47,30 @@ p, li {
     margin-top: 0;
 }
 
-.alineacion-iconos {
-    padding-left: 70px;
-}
-
-/*.iconobank {
-    border-radius: 100px;
-}*/
-
 li {
     list-style-type: none
 }
 
-.iconos {
-    float: left;
+/* .iconos {
+    float: center;
+ } */
+
+ .grid-container {
+     max-width: 980px;
+     margin: auto;
  }
 
- .icon-name {
-     text-align: center;
+ .grid-container .project-container {
+     display: inline-block;
+ }
+
+ .second-container .project-container{ 
+     margin-left: 30px;
+ }
+
+ .grid-container .project-container p {
+    margin-bottom: 35px;
+    text-align: center;
  }
 
  .nav {
